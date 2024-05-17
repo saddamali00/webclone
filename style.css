@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 20px 60px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menus {
+  display: flex;
+  align-items: center;
+}
+.menus > p {
+  border: 1px solid #000;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 5px 9px;
+  text-transform: uppercase;
+}
+.menus > i {
+  border: 1px solid #000;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 5px 9px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo > i {
+  background-color: orangered;
+  color: white;
+  font-size: 15px;
+  border-radius: 100%;
+  padding: 9px 9px;
+  margin-right: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 5px 9px;
+}
+.signup {
+  background-color: orangered;
+  border: none;
+}
+.intro {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 60px;
+}
+.intro > p {
+  font-size: 144px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+img {
+  width: 280px;
+  height: 320px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.four {
+  transform: translate(-50%, -50%) rotate(-8deg);
+}
+.three {
+  transform: translate(-50%, -50%) rotate(-16deg);
+}
+.two {
+  transform: translate(-50%, -50%) rotate(-24deg);
+}
+.one {
+  transform: translate(-50%, -50%) rotate(-32deg);
+}
+.footer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10%;
+}
+.circle {
+  width: 6px;
+  height: 6px;
+  background-color: orangered;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.icons {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.mrgn {
+  margin-left: 10px;
+}
